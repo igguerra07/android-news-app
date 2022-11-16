@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="generic_error_message">Something went wrong...</string>
+    <string name="generic_error_try_again">Try again</string>
+</resources>

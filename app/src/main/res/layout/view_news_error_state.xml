@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_news_error_state"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_error_100" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:text="@string/generic_error_message"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/tryAgain"
+        android:text="@string/generic_error_try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
